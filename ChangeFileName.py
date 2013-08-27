@@ -1,5 +1,8 @@
+#Change File Names in batches
+
 import os
 import os.path
+
 filelist=os.listdir("F:\\注会\\税法\\刘颖\\mp3\\东奥税法")
 dirc="F:\\注会\\税法\\刘颖\\mp3\\东奥税法"
 for l in filelist:
