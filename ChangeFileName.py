@@ -3,10 +3,10 @@
 import os
 import os.path
 
-filelist=os.listdir("F:\\注会\\税法\\刘颖\\mp3\\东奥税法")
-dirc="F:\\注会\\税法\\刘颖\\mp3\\东奥税法"
+filelist=os.listdir("F:\\")
+dirc="F:\\"
 for l in filelist:
-    name=l.replace('13注会税法·刘颖基础班·','')
+    name=l.replace('tobereplaced','')
     newdirc=os.path.join(dirc,name)
     olddirc=os.path.join(dirc,l)
     os.rename(olddirc,newdirc)
